@@ -1,6 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 const url = require('url');
+cont PORT = process.env.PORT || 5000
 
 const server = http.createServer(function(req,res){
     fs.readFile( "index.html", function(err, data) {
@@ -9,6 +10,6 @@ const server = http.createServer(function(req,res){
         res.end();
       });
 
-}).listen(8089);
+}).listen(PORT);
 
 console.log('Server is lisening on port 8089');
