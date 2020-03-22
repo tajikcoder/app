@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "First app to publish as draft",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tajikcoder/app.git"
+  },
+  "author": "Abdusamadzoda Abdulaziz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tajikcoder/app/issues"
+  },
+  "homepage": "https://github.com/tajikcoder/app#readme"
+}
