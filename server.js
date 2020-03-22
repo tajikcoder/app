@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 const url = require('url');
-cont PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000
 
 const server = http.createServer(function(req,res){
     fs.readFile( "index.html", function(err, data) {
